@@ -1,0 +1,4 @@
+Leitores:
+Tales - 1234
+Charles - 5678
+B - 4321
