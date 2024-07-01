@@ -1,6 +1,6 @@
 package Sistema;
 
-public class Livro extends SistemaBiblioteca {
+public class Livro extends SistemaBiblioteca { //herença
     //Atributos
     public String nome;
     public String autor;
