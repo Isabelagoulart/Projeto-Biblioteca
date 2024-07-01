@@ -9,10 +9,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws LeitorNaoEncontradoException, LivroNaoEncontradoException, LivroNaoDisponivelException, IOException {
         //Criando sistema da biblioteca
-        Biblioteca sistema = new SistemaBiblioteca();
+        Biblioteca sistema = new SistemaBiblioteca(); // aqui aplica o polimosfismo, objeto biblioteca do tipo sistema biblioteca
         Leitor leitorCadastrado;
         Livro livroPego;
-
+        //liga scanner
         Scanner scanner; //Entrada de dados vazia
         String sair = null;
 
